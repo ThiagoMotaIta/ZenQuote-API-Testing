@@ -23,6 +23,8 @@ According to the challenge, each user must have 3 favorite quotes, so you need t
 
 [implemented] There is a main Controller named **FavoriteQuoteController** that you can see the GET, POST and DELETE methods used in this challenge
 
+[implemented] You can check **js/general.js** out to see all JavaScript implementations
+
 [tested] There are few Tests to take. You can find them at **FavoriteQuoteTest** and **Auth**
 
 To run this challenge, you will need to implement the .env file to set the Database name as follow:

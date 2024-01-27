@@ -150,7 +150,7 @@ function favoriteThisQuote(quoteIdList){
     $('#like-'+quoteIdList).removeAttr("class");
     $('#like-'+quoteIdList).attr("class", "fa fa-heart fa-2x text-danger");
 
-    /*$.ajax({
+    $.ajax({
         url : 'favotite-this-quote',
         type : 'POST',
         data: {
@@ -171,7 +171,7 @@ function favoriteThisQuote(quoteIdList){
             console.log(xhr.status);
             console.log(thrownError);
         }
-    });*/
+    });
 
 }
 
