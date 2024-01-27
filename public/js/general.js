@@ -98,10 +98,13 @@ function getMyFavoriteQuotes(){
             console.log(data);
             $("#dayQuote").html("");
             for (var i=0; i < data.userFavoriteQuotes.length; i++) {
-                $("#dayQuote").append("<div class='alert alert-success'><strong>"+
-                    " “"+data.userFavoriteQuotes[i].quote+"”</strong><br/>Author: "+data.userFavoriteQuotes[i].author_name+
-                    " <a href='javascript:void(0);' onclick='removeFavoriteQuote("+data.userFavoriteQuotes[i].id+")' title='Remove from Favorite Quotes'>"+
-                    "<i id='trash-"+data.userFavoriteQuotes[i].id+"' class='fa fa-trash text-danger'></i></a></div>");
+                
+                $("#tb-body").append("<tr>"+
+                    "<td>"+data.userFavoriteQuotes[i].author_name+"</td>"+
+                    "<td>“"+data.userFavoriteQuotes[i].quote+"”</td>"+
+                    "<td><a href='javascript:void(0);' onclick='removeFavoriteQuote("+data.userFavoriteQuotes[i].id+")' title='Remove from Favorite Quotes'>"+
+                    "<i id='trash-"+data.userFavoriteQuotes[i].id+"' class='fa fa-trash text-danger'></i></a></td>"+
+                    "</tr>");
             }
 
         },
@@ -128,9 +131,12 @@ function getFavoriteQuotesFromAll(){
             console.log(data);
             $("#dayQuote").html("");
             for (var i=0; i < data.usersFavoriteQuotes.length; i++) {
-                $("#dayQuote").append("<div class='alert alert-success'><strong>"+
-                    " “"+data.usersFavoriteQuotes[i].quote+"”</strong><br/>Author: "+data.usersFavoriteQuotes[i].author_name+
-                    "<br/>Favorite Quote of <strong>"+data.usersFavoriteQuotes[i].user+"</strong>");
+
+                $("#tb-body").append("<tr>"+
+                    "<td>"+data.usersFavoriteQuotes[i].author_name+"</td>"+
+                    "<td>“"+data.usersFavoriteQuotes[i].quote+"”</td>"+
+                    "<td>"+data.usersFavoriteQuotes[i].user+"</td>"+
+                    "</tr>");
             }
 
         },

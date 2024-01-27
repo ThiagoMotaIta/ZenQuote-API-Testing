@@ -48,6 +48,17 @@
 
         <div align="center" class="alert">
             <small><span id="dayQuote">Loading...</span></small>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Author</th>
+                        <th scope="col">Quote</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tb-body">
+                </tbody>
+            </table>
         </div>
 
         <div align="center">
