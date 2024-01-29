@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Bootstrap CDN (Only for this code challenge)-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -44,6 +45,13 @@
                 <a class="btn btn-secondary" href="quotes">More Quotes</a> or <a class="btn btn-primary" href="login">Login</a> 
             </div>
         @endauth
+
+        <hr/>
+        <h2 align="center">Random Inspirational image</h2>
+
+        <div align="center" class="alert alert-primary">
+            <img src="https://zenquotes.io/api/image" width="500" class="img img-thumbnail rounded">
+        </div>
 
     </body>
 

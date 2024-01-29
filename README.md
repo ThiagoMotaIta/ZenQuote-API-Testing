@@ -8,30 +8,30 @@ The main goal of this challenge is to build a web application to handle Zen Quot
 
 ## About the Stacks 📜
 
-For this challenge, i decided to use Laravel v9.52, and PHP v8.0.11 for **BACK-END**
-For **FRONT-END**, Bootstrap v5.3.2, Ajax and JQuery
-For **DATABASE**, MySQL (MariaDB) 
+For this challenge, i decided to use Laravel v9.52, and PHP v8.0.11 for **BACK-END**;
+For **FRONT-END**, Bootstrap v5.3.2, Ajax and JQuery;
+For **DATABASE**, MySQL (MariaDB);
 
 ## Technical Issues 🦄
 
 To start the project, i implemented 3 Seeders:
-**FavoriteQuoteSeeder**
-**QuoteSeeder**
-**UserSeeder**
+**FavoriteQuoteSeeder**;
+**QuoteSeeder**;
+**UserSeeder**;
 
-According to the challenge, each user must have 3 favorite quotes, so you need to run the seeder command **php artisan db:seed**
+According to the challenge, each user must have 3 favorite quotes, so you need to run the seeder command **php artisan db:seed**. Remember: Before running seeders, you need to run the **migrations** command line :D
 
-[implemented] There is a main Controller named **FavoriteQuoteController** that you can see the GET, POST and DELETE methods used in this challenge
+[implemented] There is a main Controller named **FavoriteQuoteController** that you can see the GET, POST and DELETE methods used in this challenge.
 
-[implemented] You can check **js/general.js** out to see all JavaScript implementations
-
-[tested] There are few Tests to take. You can find them at **FavoriteQuoteTest** and **Auth**
+[tested] There are few Tests to take. You can find them at **FavoriteQuoteTest** and **Auth**.
 
 To run this challenge, you will need to implement the .env file to set the Database name as follow:
-**DB_DATABASE=quotesdb**
+**DB_DATABASE=quotesdb**.
 
-All Zen Quotes API endpoints used in this challenge are provided by: **[Zen Quote API DOC](https://zenquotes.io/)**
+All Zen Quotes API endpoints used in this challenge are provided by: **[Zen Quote API DOC](https://zenquotes.io/)**.
+
+For this challenge, i performed with CDN calls (JQuery, Bootstrap and Font Awesome).
 
 ## Live Demo ❤️
 
-You can watch a Live Demo of this challenge by accessing YouTube link: **[PLAY LIVE DEMO VIDEO](https://zenquotes.io/)**
+You can watch a Live Demo of this challenge by accessing YouTube link: **[PLAY LIVE DEMO VIDEO](https://zenquotes.io/)**.
