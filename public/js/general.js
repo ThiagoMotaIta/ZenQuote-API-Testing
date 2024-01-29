@@ -194,6 +194,7 @@ function removeFavoriteQuote(quoteIdList){
         dataType: 'json',
         success: function(data){
             console.log(data);
+            $("#tb-body").html("");
             getMyFavoriteQuotes();
 
         },
