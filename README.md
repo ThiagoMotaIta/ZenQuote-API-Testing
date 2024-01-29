@@ -19,7 +19,14 @@ To start the project, i implemented 3 Seeders:
 **QuoteSeeder**;
 **UserSeeder**;
 
-According to the challenge, each user must have 3 favorite quotes, so you need to run the seeder command **php artisan db:seed**. Remember: Before running seeders, you need to run the **migrations** command line :D
+You'll need to install **[LARAVEL BREEZE](https://github.com/laravel/breeze)**, an authentication feature with Tailwind CSS. Follow the steps:
+- Run **composer require laravel/breeze --dev** command line;
+- Run **php artisan breeze:install** command line to install Breeze;
+- Run **php artisan migrate** command line to create your database structure;
+- Run **npm install** command line to install Node Modules;
+- And finally, run **npm run dev** command line :D
+
+According to the challenge, each user must have 3 favorite quotes, so you need to run the seeder command **php artisan db:seed**. Remember: Before running seeders, you need to run the **migrations** command line :D 
 
 [implemented] There is a main Controller named **FavoriteQuoteController** that you can see the GET, POST and DELETE methods used in this challenge.
 
