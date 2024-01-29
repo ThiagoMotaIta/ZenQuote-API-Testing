@@ -34,4 +34,4 @@ For this challenge, i performed with CDN calls (JQuery, Bootstrap and Font Aweso
 
 ## Live Demo ❤️
 
-You can watch a Live Demo of this challenge by accessing YouTube link: **[PLAY LIVE DEMO VIDEO](https://zenquotes.io/)**.
+You can watch a Live Demo of this challenge by accessing YouTube link: **[PLAY LIVE DEMO VIDEO](https://youtu.be/3D5OoWKo6dI)**.
